@@ -1,8 +1,8 @@
 {
     "server": "https://drive.boku.ac.at/",
     "repository": "cac80769-e029-4f72-ab6c-73a70d9c231d",
-    "password": "pTaLqFqZ8hE3xCy",
-    "username": "l.moser@student.tugraz.at",
+    "password": "PLACE HERE YOUR PASSWORD FOR BOKU-DRIVE",
+    "username": "PLACE HERE YOUR E-MAIL-ADRESS",
     "working directory": ".tmp",
     "downloaded image (name-prefix, its also the name of uploaded image)": "original",
     "image name for ear labels": "ear_label.bmp",
