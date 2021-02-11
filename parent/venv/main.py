@@ -1,3 +1,4 @@
+from constants import *
 import cv2
 import os
 import warnings
@@ -6,16 +7,17 @@ import sys
 #import argparse
 import tkinter as tk
 import sklearn
-import sklearn.neighbors.typedefs
-import sklearn.neighbors.quad_tree
-import sklearn.tree
-import sklearn.tree._utils
-import sklearn.utils._cython_blas
+# THE FOLLOWING 4 PACKAGES ARE ONLY IMPORTANT FOR CREATING A .exe in WINDOWS with PYINSTALLER
+#import sklearn.neighbors.typedefs
+#import sklearn.neighbors.quad_tree
+#import sklearn.tree
+#import sklearn.tree._utils
+#import sklearn.utils._cython_blas
 #from matplotlib import pyplot as plt
 import numpy as np
 #from k_means import k_means_via_sklearn
 from main_window import *
-from constants import *
+#from constants import *
 
 
 
