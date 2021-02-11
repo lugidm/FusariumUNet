@@ -407,6 +407,7 @@ class ApplyModel:
             self.refined_prediction_img_array = None
             if self.canvas is not None:
                 self.canvas.destroy()
+                self.canvas = None
             fw = tk.Toplevel(self.root)
             filename, file_ending = FileWalker(fw).show()
             if filename == "ERROR":
@@ -451,6 +452,7 @@ class ApplyModel:
         if self.canvas is not None:
             # self.__silent_abort()
             self.canvas.destroy()
+            self.canvas = None
         if filename is not None:
             self.canvas = CanvasImage(self.frame_canvas, filename, self)
             self.canvas.grid(columnspan=2, rowspan=2)
